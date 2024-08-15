@@ -1,13 +1,13 @@
 .experience__container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .experience__container > div{
     background: var(--color-bg-variant);
     /* padding: 2.4rem 5rem; */
-    padding: 1.4rem 3rem;
+    padding: 1.4rem 0;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -19,22 +19,22 @@
     cursor: default;
 }
 
-.experience__container > div h3{
+.experience__container > div h4{
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1.2rem;
     color: var(--color-primary);
 }
 
 .experience__content{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+    row-gap: 1rem;
     text-align: center;
 }
 
 .experience__details{
     display: flex;
-    gap: 1rem;
+    gap: .5rem;
 }
 
 .experience__details-icon{
@@ -42,6 +42,10 @@
     color: var(--color-primary);
 }
 
+.small-text {
+    font-size: 11px;
+  }
+  
 
 /* ===============================Media Quries(Medium Devices)===================================== */
 

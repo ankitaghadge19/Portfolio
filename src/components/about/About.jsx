@@ -1,10 +1,12 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/profile.jpg'
+import ME from '../../assets/AnkitaGhadge.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 import {GiSkills} from 'react-icons/gi'
+import { FaGraduationCap } from "react-icons/fa";
+import { IoShieldCheckmark } from "react-icons/io5";
 
 const About = () => {
   return (
@@ -21,29 +23,33 @@ const About = () => {
 
         <div className="about__content">
           <div className="about__cards">
+          <article className='about__card'>
+              <FaGraduationCap className='about__icon'/>
+              <h5>Specialization</h5>
+              <small>Computer Engineer</small><br/>
+              <small>9.34 CGPA</small>
+            </article>
             <article className='about__card'>
               <FaAward class='about__icon'/>
               <h5>Experience</h5>
-              <small>Intern at Spark Foundation</small>
+              <small>Intern @Hexaware Technologies</small>
             </article>
             <article className='about__card'>
-              <FiUsers class='about__icon'/>
-              <h5>Academic GPA</h5>
-              <small>8.98 SGPA(2nd Year)</small>
+              <IoShieldCheckmark class='about__icon'/>
+              <h5>Top Skills</h5>
+              <small>MERN Stack</small><br/>
+              <small>Java (Core & Advanced)</small>
             </article>
             <article className='about__card'>
               <VscFolderLibrary class='about__icon'/>
               <h5>Projects</h5>
               <small>10+ Completed Projects</small>
             </article>
+            
         </div>
 
         <p>
-        I am a student of Third Year pursuing Bachelor's Degree in Computer Science under Savitribai Phule Pune University at Dr. D. Y. Patil Institute of Technology Pimpri, Pune.   
-        </p>
-
-        <p>
-        Currently I am looking for Internship opportunities where I can apply my knowledge practically and can get a industrial experience.
+        Hi! I'm Ankita Ghadge, a passionate Full-Stack Developer dedicated to building innovative solutions with emerging technologies. With hands-on experience in developing diverse web applications, I am committed to continuous learning and actively contributing to make a positive impact in this digital world.
         </p>
 
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>

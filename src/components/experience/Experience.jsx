@@ -9,103 +9,196 @@ const Experience = () => {
       <h2>My Experience</h2>
 
       <div className="container experience__container">
-        <div className="experience__frontend">
-          <h3>Frontend Development</h3>
+      <div className="experience__pl">
+          <h4>Programming Languages</h4>
           <div className="experience__content">
             <article className='experience_details'>
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
+                <h5>C/C++</h5>
+                <small className='text-light small-text'>Experienced</small>
               </div>
             </article>
             <article className='experience_details'>
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>CSS</h4>
-                <small className='text-light'>Experienced</small>
+                <h5>Java</h5>
+                <small className='text-light small-text'>Intermediate</small>
               </div>
             </article>
             <article className='experience_details'>
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>JavaScript</h4>
-                <small className='text-light'>Intermediate</small>
+                <h5>JavaScript</h5>
+                <small className='text-light small-text'>Intermediate</small>
               </div>
             </article>
             <article className='experience_details'>
               <BsFillPatchCheckFill className='experience__details-icon'/>
              <div>
-              <h4>Bootstrap</h4>
-              <small className='text-light'>Experienced</small>
-             </div>
-            </article>
-            <article className='experience_details'>
-              <BsFillPatchCheckFill className='experience__details-icon'/>
-             <div>
-              <h4>Jquery</h4>
-              <small className='text-light'>Beginner</small>
-             </div>
-            </article>
-            <article className='experience_details'>
-              <BsFillPatchCheckFill className='experience__details-icon'/>
-             <div>
-              <h4>React JS</h4>
-              <small className='text-light'>Intermediate</small>
+              <h5>TypeScript</h5>
+              <small className='text-light small-text'>Beginner</small>
              </div>
             </article>
           </div>
         </div>
 
-        {/* End of the Frontend */}
-
-        <div className="experience__backend">
-          <h3>Backend Development</h3>
+        <div className="experience__databases">
+          <h4>Databases</h4>
             <div className="experience__content">
               <article className='experience_details'>
                 <BsFillPatchCheckFill className='experience__details-icon'/>
                 <div>
-                  <h4>SQL</h4>
-                  <small className='text-light'>Experienced</small>
+                  <h5>MySql</h5>
+                  <small className='text-light small-text'>Experienced</small>
                 </div>
               </article>
               <article className='experience_details'>
                 <BsFillPatchCheckFill className='experience__details-icon'/>
                 <div>
-                  <h4>MongoDB</h4>
-                  <small className='text-light'>Intermediate</small>
+                  <h5>MongoDB</h5>
+                  <small className='text-light small-text'>Experienced</small>
                 </div>
               </article>
               <article className='experience_details'>
                 <BsFillPatchCheckFill className='experience__details-icon'/>
                 <div>
-                  <h4>PHP</h4>
-                  <small className='text-light'>Beginner</small>
+                  <h5>Microsoft SQL</h5>
+                  <small className='text-light small-text'>Intermediate</small>
+                </div>
+              </article>
+            </div>
+          </div>
+
+        <div className="experience__frontend">
+          <h4>Frontend Technologies</h4>
+          <div className="experience__content">
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h5>React JS</h5>
+                <small className='text-light small-text'>Intermediate</small>
+              </div>
+            </article>
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h5>Angular JS</h5>
+                <small className='text-light small-text'>Beginner</small>
+              </div>
+            </article>
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h5>Bootstrap</h5>
+                <small className='text-light small-text'>Experienced</small>
+              </div>
+            </article>
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='experience__details-icon'/>
+             <div>
+              <h5>Material-UI</h5>
+              <small className='text-light small-text'>Intermediate</small>
+             </div>
+            </article>
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='experience__details-icon'/>
+             <div>
+              <h5>Tailwind CSS</h5>
+              <small className='text-light small-text'>Intermediate</small>
+             </div>
+            </article>
+          </div>
+        </div>
+
+        <div className="experience__backend">
+          <h4>Backend Technologies</h4>
+            <div className="experience__content">
+              <article className='experience_details'>
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h5>Node JS</h5>
+                  <small className='text-light small-text'>Intermediate</small>
+                </div>
+              </article>
+              <article className='experience_details'>
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h5>Express JS</h5>
+                  <small className='text-light small-text'>Intermediate</small>
+                </div>
+              </article>
+              <article className='experience_details'>
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h5>Hibernate</h5>
+                  <small className='text-light small-text'>Intermediate</small>
+                </div>
+              </article>
+              <article className='experience_details'>
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h5>Spring</h5>
+                  <small className='text-light small-text'>Intermediate</small>
+                </div>
+              </article>
+              <article className='experience_details'>
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h5>Spring Boot</h5>
+                  <small className='text-light small-text'>Intermediate</small>
                 </div>
               </article>
               <article className='experience_details'>
                 <BsFillPatchCheckFill className='experience__details-icon'/>
                <div>
-                <h4>Java</h4>
-                <small className='text-light'>Intermediate</small>
+                <h5>ASP.Net Web API</h5>
+                <small className='text-light small-text'>Beginner</small>
                </div>
               </article>
+            </div>
+          </div>
+
+          <div className="experience__protocols">
+          <h4>Protocols</h4>
+            <div className="experience__content">
               <article className='experience_details'>
                 <BsFillPatchCheckFill className='experience__details-icon'/>
                 <div>
-                  <h4>Node JS</h4>
-                  <small className='text-light'>Beginner</small>
+                  <h5>REST API</h5>
+                  <small className='text-light small-text'>Intermediate</small>
                 </div>
               </article>
               <article className='experience_details'>
                 <BsFillPatchCheckFill className='experience__details-icon'/>
                 <div>
-                  <h4>Django</h4>
-                  <small className='text-light'>Beginner</small>
+                  <h5>WebSocket</h5>
+                  <small className='text-light small-text'>Beginner</small>
                 </div>
               </article>
             </div>
           </div>
+
+          <div className="experience__developerTools">
+          <h4>Developer Tools</h4>
+            <div className="experience__content">
+              <article className='experience_details'>
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h5>Git</h5>
+                  <small className='text-light small-text'>Intermediate</small>
+                </div>
+              </article>
+              <article className='experience_details'>
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h5>GitHub</h5>
+                  <small className='text-light small-text'>Intermediate</small>
+                </div>
+              </article>
+            </div>
+          </div>
+
       </div>
     </section>
   )

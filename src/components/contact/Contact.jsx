@@ -2,7 +2,7 @@ import React from 'react'
 import './contact.css'
 import {MdOutlineMailOutline} from 'react-icons/md'
 import {BsWhatsapp} from 'react-icons/bs'
-import { useRef } from 'react';
+import {useRef} from 'react';
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
@@ -28,7 +28,7 @@ const Contact = () => {
             <MdOutlineMailOutline className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>ghadge.ankita197@gmail.com</h5>
-            <a href="mailto:ghadge.ankita197@gmail.com"target='_blank' >Send a message</a>
+            <a href="mailto:ghadge.ankita197@gmail.com"target='_blank'>Send a message</a>
           </article>
           <article className='contact__option'>
             <BsWhatsapp contact__option-icon/>

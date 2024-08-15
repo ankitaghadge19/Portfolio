@@ -23,16 +23,17 @@
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
-    width: 105%;
+    width: 99%;
 }
 
 .about__me-image:hover {
     transform: rotate(0);
+
 }
 
 .about__cards{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
 
@@ -40,7 +41,7 @@
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
     transition: var(--transition);
 }
@@ -54,12 +55,11 @@
 .about__icon{
     color: var(--color-primary);
     font-size: 1.4rem;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 }
 
 .about__card h5{
     font-size: 0.95rem;
-
 }
 
 .about__card small{
@@ -69,10 +69,9 @@
 }
 
 .about__content p{
-    margin: 2rem 0 1rem 2.6rem;
+    margin: 1rem 0 1rem 0;
     color: var(--color-light);
-
-
+    font-size: .8rem;
 }
 
 
